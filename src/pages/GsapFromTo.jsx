@@ -21,7 +21,7 @@ const GsapFromTo = () => {
   return (
     <main>
       <div className="mt-20">
-        <div id="orange-box" className="w-20 h-20 bg-green-500 rounded-md" />
+        <div id="orange-box" className="w-20 h-20 bg-orange-500 rounded-md" />
       </div>
     </main>
   );
