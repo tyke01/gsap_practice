@@ -2,6 +2,7 @@
 import './App.css'
 import GsapFrom from './pages/GsapFrom'
 import GsapFromTo from './pages/GsapFromTo'
+import GsapScrollTrigger from './pages/GsapScrollTrigger'
 import GsapStagger from './pages/GsapStagger'
 import GsapTimeline from './pages/GsapTimeline'
 import GsapTo from './pages/GsapTo'
@@ -9,14 +10,18 @@ import GsapTo from './pages/GsapTo'
 function App() {
 
   return (
-    <main className='w-full h-full px-10 py-5'>
+    <main className='w-full h-full'>
       {/* <GsapTo /> */}
+
       {/* <GsapFrom /> */}
+
       {/* <GsapFromTo /> */}
 
       {/* <GsapTimeline /> */}
 
-      <GsapStagger />
+      {/* <GsapStagger /> */}
+
+      <GsapScrollTrigger />
     </main>
   )
 }
